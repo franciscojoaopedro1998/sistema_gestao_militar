@@ -1,0 +1,13 @@
+{
+  "name": "sistema-gestao-militar",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:api": "bun --cwd apps/api dev",
+    "dev:web": "bun --cwd apps/web dev",
+    "build:api": "bun --cwd apps/api build",
+    "build:web": "bun --cwd apps/web build"
+  }
+}
